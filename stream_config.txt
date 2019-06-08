@@ -1,0 +1,15 @@
+检测推流地址
+rtmp://50130.livepush.myqcloud.com/live/
+detect?txSecret=10bbcc5bd408feea905b08ecddffaa63&txTime=5CEFFDFF
+
+检测拉流地址
+rtmp://www.youyizhongxue.cn/live/detect
+
+输出推流地址
+rtmp://50130.livepush.myqcloud.com/live/
+anc?txSecret=7f912920238aeb620c1e721c5a9129c6&txTime=5CEFFDFF
+
+输出拉流地址
+rtmp://www.youyizhongxue.cn/live/anc
+http://www.youyizhongxue.cn/live/anc.flv
+http://www.youyizhongxue.cn/live/anc.m3u8
