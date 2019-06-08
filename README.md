@@ -100,5 +100,46 @@
 
 - 执行 realtime_detect.py 开始实时视频检测，修改配置文件中的视频源可部署在服务端检测rtmp流
 - 执行 video_detect.py 或 video_detect_multi.py 执行视频检测
+## Interface overview
 
+> Baidu_AI
+
+- multiSearch：执行 M：N 人脸搜索请求
+- addUser：人脸注册
+- updateUser：人脸更新
+- faceDelete：人脸删除
+- aip_msearch：读入 image_np，执行 M：N 人脸搜索，将结果可视化在 frame 上
+
+------
+
+Insightface：
+
+> Basic interface：
+
+- get_embd：获得 512 维特征向量
+- align_face：人脸对齐
+- recognize：人脸识别接口，输出识别结果和人脸框
+
+> Extended interface：
+
+- add_customs：增加人脸到数据库
+- add_embds：更新人脸特征数据
+- update_customs：更新指定人的人脸数据
+- del_customs：删除人脸
+
+> app interface：
+
+- insight_recognize：读入 image_np，执行 Insightface recognize，将结果可视化在 frame 上
+
+------
+
+> tensorflow 目标检测
+
+- load_graph：载入模型
+- od_detect：读入 image_np，执行目标检测，将结果可视化在 frame 上
+
+## 部分结果展示
+![out4_Moment](.\output\out4_Moment.jpg)
+![out6_Moment](.\output\out6_Moment.jpg)
+![out7_Moment](.\output\out7_Moment.jpg)
 
