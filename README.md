@@ -139,7 +139,7 @@ Insightface：
 - od_detect：读入 image_np，执行目标检测，将结果可视化在 frame 上
 
 ## 部分结果展示
-![out4_Moment](.\output\out4_Moment.jpg)
-![out6_Moment](.\output\out6_Moment.jpg)
-![out7_Moment](.\output\out7_Moment.jpg)
+![out4_Moment](./output/out4_Moment.jpg)
+![out6_Moment](./output/out6_Moment.jpg)
+![out7_Moment](./output/out7_Moment.jpg)
 
